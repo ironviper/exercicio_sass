@@ -1,0 +1,18 @@
+@use './utils';
+@use './mobile';
+@use './reset';
+@use './tablet';
+@use './header';
+@use './products';
+
+body {
+    background-color: utils.$bg-color;
+}
+
+li {
+    list-style: none;
+}
+
+section {
+    padding: 56px 0;
+}
